@@ -38,9 +38,6 @@
 - 🌐 [LinkedIn](https://linkedin.com/in/)
 - 🐙 [GitHub-profil](https://github.com/yourusername)
 
-### 😄 Pronomen:
-- Han/Ham
-
 ### ⚡ Moro fakta:
 - Jeg er lidenskapelig opptatt av å utforske funksjonaliteten til Flipper Zero, et allsidig verktøy for sikkerhetsforskning og eksperimentering.
 - Jeg er også engasjert i utvikling og implementering av AI-løsninger, og utforsker kontinuerlig nye metoder og teknologier innen dette feltet.
