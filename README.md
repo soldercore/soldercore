@@ -1,17 +1,39 @@
-# 💫 About Me:
-🔭 Jeg jobber for øyeblikket med:<br>Forbedring av nettverkssikkerhetsprosedyrer og IT-infrastruktur for kunder hos Sagene Data AS.<br>Utvikling av automatiseringsskript for å effektivisere IT-operasjoner og forbedre effektiviteten.<br>Prosjekter med Flipper Zero for å utforske og forbedre sikkerhetstestmetoder.<br>AI-relaterte prosjekter, inkludert utvikling av modeller og løsninger for å løse komplekse problemer og optimalisere prosesser.<br>Vedlikehold og videreutvikling av min personlige nettside for å presentere mine ferdigheter og prosjekter.
+Hammad Mir
+IT Consultant @ Sagene Data AS | Applied Machine Learning Student @ Noroff  
 
-<br>🌱 Jeg lærer for øyeblikket:<br>Avanserte løsninger for sikkerhet i skyen og integreringsstrategier.<br>Nye trender innen etisk hacking og digital etterforskning.<br>Nyeste teknikker og metoder innen kunstig intelligens (AI) og maskinlæring.<br>Webutvikling og forbedring av brukeropplevelsen på nettsiden min.
+Focus
+• Designing and hardening network and cloud infrastructure for production environments  
+• Automating IT and security operations to reduce operational risk and manual overhead  
+• Applied machine learning with emphasis on inference efficiency, deployment, and system integration  
 
-<br>👯 Jeg ser etter samarbeid på:<br>Prosjekter som involverer nettverkssikkerhet og optimalisering av IT-infrastruktur.<br>Open-source initiativer med fokus på cybersikkerhetsverktøy og beste praksis.<br>Innovative bruksområder og utvikling med Flipper Zero.<br>AI-relaterte prosjekter som omfatter maskinlæring, datanalyse og automatisering.<br>Webutviklingsprosjekter, spesielt de som involverer nye teknologier og designprinsipper.
+Selected Work
+• GLaDOS v10 – async-based AI orchestration system for local and hybrid inference, tool routing, and task execution  
+• Security research using hardware-based tools for protocol analysis, access control testing, and attack surface exploration  
+• Performance tuning and reliability improvements in client production systems  
 
-<br>🤔 Jeg ser etter hjelp med:<br>Beste praksis for implementering av avanserte sikkerhetstiltak i sky-miljøer.<br>Effektive teknikker for digital etterforskning og hendelsesrespons.<br>Avanserte metoder og verktøy innen kunstig intelligens for å forbedre prosesser og løsninger.<br>Optimalisering og forbedring av funksjonaliteten til nettsiden min.
+Technical Competencies
 
-<br>💬 Spør meg om:<br>IT-sikkerhet, nettverksadministrasjon og teknikker for etisk hacking.<br>Beste praksis for vedlikehold og sikring av IT-infrastruktur.<br>Bruk og prosjekter med Flipper Zero.<br>Kunstig intelligens (AI), maskinlæring og dataanalyse.<br>Webutvikling, inkludert design og implementering av nye funksjoner på nettsiden min.
+Infrastructure & Security  
+Cloud: AWS, Azure, GCP, Linode  
+Networking: Firewalls, VPNs, segmentation, zero-trust principles  
+Security: Threat modeling, penetration testing, incident response  
 
+Development  
+Languages: Python, JavaScript, C/C++, PowerShell, Bash  
+ML/AI: PyTorch, transformer-based models, Hugging Face inference pipelines  
+Web: Modern ES6+, performance-oriented frontend and backend implementations  
 
-<br>⚡ Moro fakta:<br>Jeg er lidenskapelig opptatt av å utforske funksjonaliteten til Flipper Zero, et allsidig verktøy for sikkerhetsforskning og eksperimentering.<br>Jeg er også engasjert i utvikling og implementering av AI-løsninger, og utforsker kontinuerlig nye metoder og teknologier innen dette feltet.<br>I tillegg til teknologiske prosjekter jobber jeg aktivt med å forbedre min personlige nettside for å holde den oppdatert og relevant.
+Tooling & Systems  
+Linux administration, Git-based workflows, automation scripting, hardware security research  
 
+Open to Collaboration
+• Security automation and infrastructure hardening  
+• Applied ML systems: inference optimization, deployment pipelines  
+• Open-source security and privacy tooling  
+• High-performance, maintainable web systems  
+
+Contact  
+🌐 https://hamad.no
 
 ## 🌐 Socials: [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/www.linkedin.com/in/hammadm1) 
 
