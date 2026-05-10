@@ -1,76 +1,101 @@
 # Hammad Mir
 
-IT Consultant @ Sagene Data AS | Applied ML Student @ Noroff
+**IT Consultant @ Sagene Data AS**  
+**Applied Machine Learning Student @ Noroff**
+
+I work with IT operations, security, automation, and practical AI projects.
+
+My focus is building useful systems that are reliable, understandable, and secure — from Microsoft environments and endpoint management to local AI assistants, Raspberry Pi projects, scripting, and automation workflows.
 
 ---
 
 ## Current Focus
 
-**Professional**: Network security infrastructure, IT automation, client system hardening
+### Professional
 
-**Academic**: Applied machine learning with focus on model inference and deployment
+- IT operations and client support
+- Microsoft 365 / Azure AD environments
+- Endpoint management and system hardening
+- Windows and Linux troubleshooting
+- Automation with PowerShell, Bash, and scripting
+- Practical security improvements for real client environments
 
-**Projects**: GLaDOS v10 (async-based AI orchestrator), security research with hardware tools, performance optimization for production systems
+### Academic
 
-<br>
+- Applied machine learning
+- Model inference and deployment
+- AI system design
+- Local-first AI workflows
+
+### Personal Projects
+
+- **Raven AI** — a local-first personal AI assistant with Telegram, memory, reminders, quiet hours, and security-first deterministic execution
+- Raspberry Pi-based assistant and automation projects
+- Hardware/security experimentation with tools like Flipper Zero
+- Personal portfolio and frontend experiments
+
+---
 
 ## Technical Stack
 
-**Infrastructure & Security**
+### Infrastructure & Security
 
-Cloud: AWS, Azure, GCP, Linode | Network: Firewall config, VPN deployment, zero-trust architecture | Security: Pentesting, threat modeling, incident response
+- Microsoft 365
+- Azure AD / Entra ID
+- Windows administration
+- Linux administration
+- Endpoint hardening
+- VPN, DNS, firewall, and network troubleshooting
+- Logging, monitoring, and operational security basics
 
-**Development**
+### Development & Automation
 
-Languages: Python, JavaScript, C/C++, PowerShell, Bash
+- PowerShell
+- Bash
+- Python
+- JavaScript / TypeScript
+- Rust basics through AI-system development
+- Git workflows
+- Automation scripting
 
-ML/AI: PyTorch, Transformers, Hugging Face inference pipelines
+### AI / ML
 
-Web: Modern ES6+, responsive design, performance-critical implementations
+- Applied machine learning fundamentals
+- Local LLM experimentation
+- Ollama
+- Prompting and intent-routing systems
+- Hugging Face models and inference concepts
+- AI assistant architecture
 
-**Tooling**
+### Web
 
-Linux administration, Git workflows, automation scripting, hardware security research
+- React
+- TypeScript
+- Tailwind CSS
+- Responsive design
+- Performance-aware frontend development
 
-<br>
+---
+
+## What I Like Building
+
+- Local-first AI tools
+- Security-focused automation
+- Personal productivity systems
+- Practical IT tools that reduce manual work
+- Clean, understandable systems with strong boundaries
+- Projects that combine infrastructure, security, and AI
+
+---
 
 ## Open to Collaboration
 
-- Infrastructure security automation and hardening frameworks
-- Applied ML projects: model optimization, deployment pipelines, inference at scale
-- Open-source security tooling and privacy-focused solutions
-- High-performance web applications with clean architecture
+I am especially interested in:
 
-<br>
-
-## Contact
-
-🌐 [hamad.no](https://hamad.no)
-
-💼 [LinkedIn](https://linkedin.com/in/hammadm1)
-
-<br>
-
----
-
-## 💻 Tech Stack
-
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white) ![Bash](https://img.shields.io/badge/bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
-
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Linode](https://img.shields.io/badge/linode-00A95C?style=for-the-badge&logo=linode&logoColor=white)
-
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![TOR](https://img.shields.io/badge/tor-%237E4798.svg?style=for-the-badge&logo=tor-project&logoColor=white)
-
-<br>
-
-## 📊 GitHub Stats
-
-![](https://github-readme-stats.vercel.app/api?username=soldercore&theme=dark&hide_border=false&include_all_commits=false&count_private=false)
-
-![](https://github-readme-streak-stats.herokuapp.com/?user=soldercore&theme=dark&hide_border=false)
-
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=soldercore&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
----
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+- IT automation
+- security hardening tools
+- local-first AI assistants
+- applied ML projects
+- privacy-focused systems
+- Raspberry Pi / home lab projects
+- clean frontend and portfolio systems
