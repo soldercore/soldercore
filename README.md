@@ -3,9 +3,9 @@
 # Hammad Mir
 
 <img
-  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2600&pause=900&color=58A6FF&center=true&vCenter=true&width=600&lines=IT+Consultant+%E2%80%A2+Security+%E2%80%A2+Automation;Microsoft+365+%E2%80%A2+Entra+ID+%E2%80%A2+Intune;Applied+Machine+Learning;Building+Raven+Core;Local+AI+%E2%80%A2+Secure+Systems"
-  alt="Hammad Mir"
-  width="600"
+  src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&weight=400&size=12&duration=2600&pause=1000&color=58A6FF&center=true&vCenter=true&width=720&lines=IT+CONSULTANT+%E2%80%A2+SECURITY+%E2%80%A2+AUTOMATION;MICROSOFT+365+%E2%80%A2+ENTRA+ID+%E2%80%A2+INTUNE;APPLIED+MACHINE+LEARNING;BUILDING+RAVEN+CORE;LOCAL+AI+%E2%80%A2+SECURE+SYSTEMS"
+  alt="IT Consultant, Security, Automation and Applied AI"
+  width="720"
 />
 
 <br>
@@ -14,7 +14,7 @@ I build practical systems across **IT infrastructure, security, automation and a
 
 <br>
 
-[**hamad.no**](https://hamad.no)
+### [hamad.no](https://hamad.no)
 
 </div>
 
@@ -26,7 +26,9 @@ I am an IT consultant at **Sagene Data AS**, working with Microsoft environments
 
 I have completed studies in **Applied Machine Learning at Noroff** and enjoy combining traditional IT infrastructure with practical AI systems.
 
-My focus is simple: build systems that are **reliable, understandable and secure**.
+My focus is simple:
+
+**Build systems that are reliable, understandable and secure.**
 
 <br>
 
@@ -34,36 +36,62 @@ My focus is simple: build systems that are **reliable, understandable and secure
 
 <div align="center">
 
-<img
-  src="https://skillicons.dev/icons?i=windows,azure,powershell,python,rust,ts,react,linux,bash,git,github,vscode&perline=6"
-  alt="Technology stack"
-  width="420"
-/>
+<code>Windows</code>
+<code>Microsoft 365</code>
+<code>Azure</code>
+<code>Entra ID</code>
+<code>Intune</code>
+<code>Defender</code>
 
 <br><br>
 
-**Microsoft 365 · Entra ID · Intune · Defender · Sentinel · Ollama**
+<code>PowerShell</code>
+<code>Python</code>
+<code>Rust</code>
+<code>TypeScript</code>
+<code>React</code>
+<code>Linux</code>
+
+<br><br>
+
+<code>Ollama</code>
+<code>Local LLMs</code>
+<code>Git</code>
+<code>Automation</code>
+<code>AI Agents</code>
+<code>Machine Learning</code>
 
 </div>
 
 <br>
 
-## Current Focus
+## What I Work With
 
-**Infrastructure**  
-Microsoft 365 · Entra ID · Intune · Endpoint Management
+### Microsoft and Infrastructure
 
-**Security**  
-Identity · Endpoint Security · Hardening · Monitoring · Defender
+Microsoft 365 · Entra ID · Intune · Microsoft Defender · Windows · Endpoint Management · Identity and Access
 
-**Applied AI**  
-Local AI · Agents · Machine Learning · Model Inference
+### Security
+
+Endpoint Security · Identity Security · System Hardening · Monitoring · Networking · VPN · DNS · Defensive Security
+
+### Automation
+
+PowerShell · Python · Bash · Git · System Integration · Automation Workflows
+
+### Applied AI
+
+Local LLMs · Ollama · Model Inference · Intent Routing · AI Agents · Machine Learning · AI System Architecture
 
 <br>
 
 ## Raven Core
 
+<div align="center">
+
 ### Local AI with controlled execution
+
+</div>
 
 Raven Core is my personal AI system for Windows.
 
@@ -86,9 +114,21 @@ flowchart TD
 
 <div align="center">
 
-**Local Inference · Intent Routing · Policy Enforcement**
+<code>Local Inference</code>
+<code>Intent Routing</code>
+<code>Policy Enforcement</code>
 
-**Deterministic Execution · Windows Automation · Audit Logging**
+<br><br>
+
+<code>Deterministic Execution</code>
+<code>Windows Automation</code>
+<code>Audit Logging</code>
+
+<br><br>
+
+<code>Memory</code>
+<code>Security Boundaries</code>
+<code>Local AI</code>
 
 </div>
 
@@ -100,55 +140,110 @@ Deterministic components decide what the system is actually allowed to do.
 
 This separation keeps reasoning flexible while execution remains controlled.
 
-<br>
-
-## Selected Projects
-
-### Raven Core
-
-A local personal AI system built around deterministic execution, explicit security boundaries, contextual memory and Windows automation.
-
-**Rust · Local LLMs · Windows · Security · AI Agents**
+<details>
+<summary><strong>Architecture</strong></summary>
 
 <br>
 
-### [Vault CLI](https://github.com/soldercore/vault-cli)
+Raven is structured as separate components with clear responsibilities.
 
-An offline password manager focused on strong local encryption and simple terminal based operation.
+**Language Model**
 
-**PowerShell · Security · Encryption · Local Storage**
+Interprets natural language and user intent.
+
+**Structured Intent**
+
+Converts model output into typed actions the rest of the system can understand.
+
+**Policy**
+
+Determines whether an action is allowed, rejected or requires approval.
+
+**Orchestrator**
+
+Controls the execution flow and coordinates actions.
+
+**Runtime**
+
+Performs approved operations on the operating system.
+
+**Audit**
+
+Records what happened and makes system behavior observable.
+
+The goal is to keep model reasoning separate from trusted execution.
+
+</details>
 
 <br>
 
-### [IT Support System Scanner](https://github.com/soldercore/IT-Support-System-Scanner)
+## Other Projects
 
-A practical support tool for collecting system information and reducing repetitive troubleshooting work.
+### IT Support System Scanner
 
-**PowerShell · Windows · IT Operations · Automation**
+A practical Windows support tool for collecting system information and reducing repetitive troubleshooting work.
+
+`PowerShell` · `Windows` · `IT Operations` · `Automation`
+
+<br>
+
+### Privacy Guide
+
+A practical project focused on helping people improve their digital privacy without requiring deep technical knowledge.
+
+`Privacy` · `DNS` · `VPN` · `Browsers` · `Security`
+
+<br>
+
+### Bli Enig
+
+A project exploring how software can help people structure disagreements, compare perspectives and reach clearer decisions.
+
+`React` · `TypeScript` · `Product Design` · `User Experience`
+
+<br>
+
+### Lab and Automation Projects
+
+I also experiment with Raspberry Pi systems, networking, local AI inference, Windows and Linux, system hardening, scripting and hardware integration.
+
+<br>
+
+## Current Focus
+
+### Infrastructure
+
+Microsoft 365 · Entra ID · Intune · Endpoint Management · Secure Operations
+
+### Security
+
+Identity · Endpoint Security · Monitoring · Hardening · Defensive Security
+
+### Applied AI
+
+Local AI · Agents · Machine Learning · Model Inference · AI Architecture
 
 <br>
 
 ## How I Build
 
-**Reliable over clever**
+### Reliable over clever
 
-Consistency comes before unnecessary complexity.
+A system should behave consistently before it becomes complicated.
 
-<br>
+### Secure by design
 
-**Secure by design**
+Security should be part of the architecture from the beginning.
 
-Security belongs in the architecture from the beginning.
-
-<br>
-
-**Automation with purpose**
+### Automation with purpose
 
 Automation should remove repetitive work without removing accountability.
 
-<br>
+### Understandable systems
 
-**Local when possible**
+Important behavior should be observable and explainable.
+
+### Local when possible
 
 Privacy, ownership and control matter.
 
@@ -160,21 +255,25 @@ Privacy, ownership and control matter.
 
 **Microsoft Infrastructure · Security Engineering · IT Automation**
 
+<br>
+
 **Local AI · AI Agents · Machine Learning**
+
+<br>
 
 **Windows · Linux · Networking · Privacy**
 
 </div>
 
-<br>
+<br><br>
 
 <div align="center">
 
-### More about my work
+## More About My Work
 
 Projects, experience and background at
 
-## [hamad.no](https://hamad.no)
+### [hamad.no](https://hamad.no)
 
 <br>
 
