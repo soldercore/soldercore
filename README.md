@@ -2,126 +2,140 @@
 
 # Hammad Mir
 
-`IT CONSULTANT` · `SECURITY` · `AUTOMATION` · `APPLIED AI`
+<img
+  src="https://readme-typing-svg.demolab.com?font=Ubuntu+Mono&weight=700&size=22&duration=2400&pause=850&color=3FB950&center=true&vCenter=true&width=760&lines=%24+whoami;%3E+Hammad+Mir+%7C+IT+Consultant;%24+current_focus;%3E+Security+%7C+Automation+%7C+Applied+AI;%24+.%2Fraven+status;%3E+LOCAL+AI+%7C+CONTROLLED+EXECUTION"
+  alt="Terminal introduction"
+  width="100%"
+/>
 
 <br>
 
-**Building reliable systems across infrastructure, security and artificial intelligence.**
+**Infrastructure · Security · Automation · Applied AI**
 
-[hamad.no](https://hamad.no)
+<br>
+
+[**hamad.no**](https://hamad.no)
 
 </div>
 
 <br>
 
-```text
-hammad@soldercore:~$ whoami
+## `$ whoami`
 
-Hammad Mir
-IT Consultant
-Applied Machine Learning graduate
+```console
+soldercore@github:~$ ./profile
 
-Current environment:
-  Microsoft infrastructure
-  Endpoint management
-  Security
-  Automation
-  Local AI
+NAME        Hammad Mir
+ROLE        IT Consultant
+FOCUS       Security · Automation · Applied AI
+EDUCATION   Applied Machine Learning · Noroff
+PROJECT     Raven Core
+SYSTEM      Windows · Linux · Microsoft Cloud
 ```
-
-<br>
-
-## `$ cat about.txt`
 
 I work as an IT consultant at **Sagene Data AS**, primarily with Microsoft environments, endpoint management, troubleshooting, security and automation.
 
-I have completed **Applied Machine Learning at Noroff** and spend much of my personal development time exploring how traditional infrastructure can be combined with practical AI systems.
+I have completed **Applied Machine Learning at Noroff** and enjoy combining traditional infrastructure with practical AI systems.
 
 ```text
-principles.conf
-
-reliability      = required
-security         = built_in
-complexity       = justified
-automation       = purposeful
-privacy          = preferred
-observability    = required
+objective:
+    build systems that are reliable
+    understandable
+    observable
+    secure
 ```
 
 <br>
 
-## `$ stack --active`
+## `$ stack`
 
 ```text
 INFRASTRUCTURE
-├── Microsoft 365
-├── Entra ID
-├── Intune
-├── Microsoft Defender
-├── Windows
-└── Endpoint Management
+
+  Microsoft 365
+  Entra ID
+  Intune
+  Microsoft Defender
+  Windows
+  Endpoint Management
+
 
 SECURITY
-├── Identity Security
-├── Endpoint Security
-├── System Hardening
-├── Monitoring
-├── Networking
-├── VPN / DNS
-└── Defensive Security
+
+  Identity Security
+  Endpoint Security
+  System Hardening
+  Monitoring
+  Networking
+  VPN
+  DNS
+  Defensive Security
+
 
 AUTOMATION
-├── PowerShell
-├── Python
-├── Bash
-├── Git
-└── System Integration
+
+  PowerShell
+  Python
+  Bash
+  Git
+  System Integration
+
 
 APPLIED AI
-├── Local LLMs
-├── Ollama
-├── Model Inference
-├── Intent Routing
-├── AI Agents
-└── Machine Learning
+
+  Local LLMs
+  Ollama
+  Model Inference
+  Intent Routing
+  AI Agents
+  Machine Learning
 ```
 
 <br>
 
-# `$ ./raven-core`
+# `$ ./raven status`
 
-```text
-STATUS     ACTIVE
-PLATFORM   WINDOWS
-MODE       LOCAL FIRST
-CONTROL    DETERMINISTIC
-POLICY     FAIL CLOSED
-AUDIT      ENABLED
+```console
+RAVEN CORE
+
+STATE       ACTIVE
+PLATFORM    WINDOWS
+INFERENCE   LOCAL
+EXECUTION   DETERMINISTIC
+POLICY      FAIL CLOSED
+APPROVALS   BOUNDED
+AUDIT       ENABLED
+MEMORY      CONTEXTUAL
 ```
 
-## Raven Core
+### Raven Core
 
 **A local AI system designed to interact with Windows without giving the language model unrestricted control.**
 
-Most assistants stop at generating an answer.
+Most AI assistants are designed to produce answers.
 
-Raven explores what happens when the assistant is allowed to **act**.
+Raven is being built to **perform real actions**.
 
-The important part is not making the model more powerful.
-
-The important part is controlling what happens between:
+That creates a different problem.
 
 ```text
-"I understand what you want"
-             │
-             ▼
-"I am allowed to do it"
-             │
-             ▼
-"I executed it correctly"
+UNDERSTAND
+    │
+    ▼
+AUTHORIZE
+    │
+    ▼
+EXECUTE
+    │
+    ▼
+VERIFY
 ```
 
-### Execution path
+The model interprets what the user wants.
+
+Trusted components decide what the system is actually allowed to do.
+
+### `$ raven architecture`
 
 ```mermaid
 flowchart TD
@@ -131,132 +145,127 @@ flowchart TD
     P --> O["Orchestrator"]
     O --> R["Runtime"]
     R --> W["Windows"]
-
     R --> A["Audit"]
     P --> C["Approval"]
     C --> O
 ```
 
-```text
-raven@core:~$ capabilities --summary
+### `$ raven capabilities`
 
-[✓] Local model inference
-[✓] Structured intent routing
-[✓] Explicit policy enforcement
-[✓] Deterministic execution
-[✓] Approval boundaries
-[✓] Windows automation
-[✓] Audit logging
-[✓] Contextual memory
-[✓] Multi step workflows
+```console
+[ OK ] local model inference
+[ OK ] structured intent routing
+[ OK ] explicit policy enforcement
+[ OK ] deterministic execution
+[ OK ] approval boundaries
+[ OK ] Windows automation
+[ OK ] audit logging
+[ OK ] contextual memory
+[ OK ] multi step workflows
 ```
 
-### Design rule
-
-> The model may reason about the action.  
-> Trusted components decide whether the action can happen.
-
-That separation allows Raven to remain flexible at the language layer while keeping execution bounded, observable and testable.
+> **The model may reason about an action. Trusted components decide whether the action can happen.**
 
 <details>
-<summary><strong>View architecture notes</strong></summary>
+<summary><strong>Open architecture notes</strong></summary>
 
 <br>
 
 ```text
-┌─────────────────────┐
-│        USER         │
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│   LANGUAGE MODEL    │
-│ interpretation only │
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│  STRUCTURED INTENT  │
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│       POLICY        │
-│ allow / deny / ask  │
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│    ORCHESTRATOR     │
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│       RUNTIME       │
-│ trusted execution   │
-└──────┬────────┬─────┘
-       │        │
-       ▼        ▼
-   WINDOWS    AUDIT
+USER
+ │
+ ▼
+LANGUAGE MODEL
+ │
+ │  interpretation
+ ▼
+STRUCTURED INTENT
+ │
+ ▼
+POLICY
+ │
+ │  allow
+ │  deny
+ │  approve
+ ▼
+ORCHESTRATOR
+ │
+ ▼
+RUNTIME
+ │
+ ├──────────────► AUDIT
+ │
+ ▼
+WINDOWS
 ```
-
-Raven is intentionally divided into components with narrow responsibilities.
 
 **Language Model**
 
-Interprets natural language.
+Interprets natural language and user intent.
 
 **Structured Intent**
 
-Turns model output into typed operations.
+Transforms model output into typed operations.
 
 **Policy**
 
-Decides what may proceed.
+Determines whether an operation may continue.
 
 **Orchestrator**
 
-Controls state and workflow execution.
+Controls execution state and workflows.
 
 **Runtime**
 
-Executes approved operations.
+Performs approved operations.
 
 **Audit**
 
-Records what happened.
+Records system behavior and execution results.
+
+The architecture keeps language reasoning separate from trusted execution.
 
 </details>
 
 <br>
 
-## `$ ls ~/projects`
+## `$ ls projects`
 
-### `raven-core/`
+```text
+projects/
 
-Local personal AI system for Windows with controlled execution, memory, policy enforcement and OS automation.
+  raven_core/
+  system_scanner/
+  privacy_guide/
+  bli_enig/
+  automation_lab/
+```
+
+### `raven_core/`
+
+Local personal AI system for Windows with controlled execution, policy enforcement, contextual memory and operating system automation.
 
 `Rust` `Local LLMs` `Windows` `Security` `AI Agents`
 
 <br>
 
-### `system-scanner/`
+### `system_scanner/`
 
-Windows support tooling designed to collect useful diagnostic information and reduce repetitive troubleshooting.
+Practical Windows support tooling designed to collect useful system information and reduce repetitive troubleshooting work.
 
 `PowerShell` `Windows` `IT Operations` `Automation`
 
 <br>
 
-### `privacy-guide/`
+### `privacy_guide/`
 
-Practical privacy guidance designed for people who want stronger digital privacy without becoming security engineers.
+Practical privacy guidance designed to help people reduce unnecessary digital exposure without requiring deep technical knowledge.
 
 `Privacy` `DNS` `VPN` `Browsers` `Security`
 
 <br>
 
-### `bli-enig/`
+### `bli_enig/`
 
 An experiment in using software to structure disagreements, compare perspectives and make discussions clearer.
 
@@ -273,6 +282,7 @@ An experiment in using software to structure disagreements, compare perspectives
     Entra ID
     Intune
     Endpoint Management
+    Secure Operations
 
 
 02  DEFENSIVE SECURITY
@@ -281,63 +291,119 @@ An experiment in using software to structure disagreements, compare perspectives
     Endpoint Security
     Hardening
     Monitoring
+    Microsoft Defender
 
 
 03  APPLIED AI
 
-    Local models
+    Local Models
     Agents
     Machine Learning
-    AI system architecture
+    Model Inference
+    AI System Architecture
 ```
 
 <br>
 
-## `$ cat engineering.md`
+## `$ cat principles.conf`
 
-### `01 / reliable_over_clever`
+```ini
+reliability     = required
+security        = built_in
+complexity      = justified
+automation      = purposeful
+privacy         = preferred
+observability   = required
+```
+
+**Reliable over clever**
 
 A system should behave consistently before it becomes complicated.
 
-### `02 / secure_by_design`
+**Secure by design**
 
 Security belongs in the architecture from the beginning.
 
-### `03 / automation_with_purpose`
+**Automation with purpose**
 
 Automation should remove repetitive work without removing accountability.
 
-### `04 / observable_systems`
+**Observable systems**
 
 Important behavior should be understandable and inspectable.
 
-### `05 / local_when_possible`
+**Local when possible**
 
 Privacy, ownership and control matter.
+
+<br>
+
+## `$ git activity`
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://github-readme-activity-graph.vercel.app/graph?username=soldercore&bg_color=0d1117&color=8b949e&line=3fb950&point=58a6ff&area=true&area_color=238636&hide_border=true&custom_title=Contribution%20activity"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://github-readme-activity-graph.vercel.app/graph?username=soldercore&bg_color=ffffff&color=57606a&line=1a7f37&point=0969da&area=true&area_color=2da44e&hide_border=true&custom_title=Contribution%20activity"
+  />
+  <img
+    alt="GitHub contribution activity"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=soldercore&theme=github-compact&hide_border=true&area=true"
+    width="100%"
+  />
+</picture>
+
+<br>
+
+## `$ github status`
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=soldercore&theme=github_dark&animation=sequence&duration=3"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=soldercore&theme=github&animation=sequence&duration=3"
+  />
+  <img
+    alt="GitHub profile activity"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=soldercore&theme=github_dark&animation=sequence&duration=3"
+    width="100%"
+  />
+</picture>
 
 <br>
 
 ## `$ interests`
 
 ```text
-Microsoft Infrastructure    Security Engineering
-IT Automation               Local AI
-AI Agents                   Machine Learning
-Windows                     Linux
-Networking                  Privacy
+Microsoft Infrastructure     Security Engineering
+
+IT Automation                Local AI
+
+AI Agents                    Machine Learning
+
+Windows                      Linux
+
+Networking                   Privacy
 ```
 
 <br>
 
-```text
-hammad@soldercore:~$ contact --web
+```console
+soldercore@github:~$ contact
 
-Opening https://hamad.no ...
+web     https://hamad.no
+status  ready
 ```
 
 <div align="center">
 
-## [hamad.no](https://hamad.no)
+### [hamad.no](https://hamad.no)
 
 **Projects · Experience · Background**
 
