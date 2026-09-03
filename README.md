@@ -2,281 +2,347 @@
 
 # Hammad Mir
 
-<img
-  src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&weight=400&size=12&duration=2600&pause=1000&color=58A6FF&center=true&vCenter=true&width=720&lines=IT+CONSULTANT+%E2%80%A2+SECURITY+%E2%80%A2+AUTOMATION;MICROSOFT+365+%E2%80%A2+ENTRA+ID+%E2%80%A2+INTUNE;APPLIED+MACHINE+LEARNING;BUILDING+RAVEN+CORE;LOCAL+AI+%E2%80%A2+SECURE+SYSTEMS"
-  alt="IT Consultant, Security, Automation and Applied AI"
-  width="720"
-/>
+`IT CONSULTANT` · `SECURITY` · `AUTOMATION` · `APPLIED AI`
 
 <br>
 
-I build practical systems across **IT infrastructure, security, automation and applied AI.**
+**Building reliable systems across infrastructure, security and artificial intelligence.**
 
-<br>
-
-### [hamad.no](https://hamad.no)
+[hamad.no](https://hamad.no)
 
 </div>
 
 <br>
 
-## About
+```text
+hammad@soldercore:~$ whoami
 
-I am an IT consultant at **Sagene Data AS**, working with Microsoft environments, endpoint management, troubleshooting, security and automation.
+Hammad Mir
+IT Consultant
+Applied Machine Learning graduate
 
-I have completed studies in **Applied Machine Learning at Noroff** and enjoy combining traditional IT infrastructure with practical AI systems.
-
-My focus is simple:
-
-**Build systems that are reliable, understandable and secure.**
-
-<br>
-
-## Technology
-
-<div align="center">
-
-<code>Windows</code>
-<code>Microsoft 365</code>
-<code>Azure</code>
-<code>Entra ID</code>
-<code>Intune</code>
-<code>Defender</code>
-
-<br><br>
-
-<code>PowerShell</code>
-<code>Python</code>
-<code>Rust</code>
-<code>TypeScript</code>
-<code>React</code>
-<code>Linux</code>
-
-<br><br>
-
-<code>Ollama</code>
-<code>Local LLMs</code>
-<code>Git</code>
-<code>Automation</code>
-<code>AI Agents</code>
-<code>Machine Learning</code>
-
-</div>
+Current environment:
+  Microsoft infrastructure
+  Endpoint management
+  Security
+  Automation
+  Local AI
+```
 
 <br>
 
-## What I Work With
+## `$ cat about.txt`
 
-### Microsoft and Infrastructure
+I work as an IT consultant at **Sagene Data AS**, primarily with Microsoft environments, endpoint management, troubleshooting, security and automation.
 
-Microsoft 365 · Entra ID · Intune · Microsoft Defender · Windows · Endpoint Management · Identity and Access
+I have completed **Applied Machine Learning at Noroff** and spend much of my personal development time exploring how traditional infrastructure can be combined with practical AI systems.
 
-### Security
+```text
+principles.conf
 
-Endpoint Security · Identity Security · System Hardening · Monitoring · Networking · VPN · DNS · Defensive Security
-
-### Automation
-
-PowerShell · Python · Bash · Git · System Integration · Automation Workflows
-
-### Applied AI
-
-Local LLMs · Ollama · Model Inference · Intent Routing · AI Agents · Machine Learning · AI System Architecture
+reliability      = required
+security         = built_in
+complexity       = justified
+automation       = purposeful
+privacy          = preferred
+observability    = required
+```
 
 <br>
+
+## `$ stack --active`
+
+```text
+INFRASTRUCTURE
+├── Microsoft 365
+├── Entra ID
+├── Intune
+├── Microsoft Defender
+├── Windows
+└── Endpoint Management
+
+SECURITY
+├── Identity Security
+├── Endpoint Security
+├── System Hardening
+├── Monitoring
+├── Networking
+├── VPN / DNS
+└── Defensive Security
+
+AUTOMATION
+├── PowerShell
+├── Python
+├── Bash
+├── Git
+└── System Integration
+
+APPLIED AI
+├── Local LLMs
+├── Ollama
+├── Model Inference
+├── Intent Routing
+├── AI Agents
+└── Machine Learning
+```
+
+<br>
+
+# `$ ./raven-core`
+
+```text
+STATUS     ACTIVE
+PLATFORM   WINDOWS
+MODE       LOCAL FIRST
+CONTROL    DETERMINISTIC
+POLICY     FAIL CLOSED
+AUDIT      ENABLED
+```
 
 ## Raven Core
 
-<div align="center">
+**A local AI system designed to interact with Windows without giving the language model unrestricted control.**
 
-### Local AI with controlled execution
+Most assistants stop at generating an answer.
 
-</div>
+Raven explores what happens when the assistant is allowed to **act**.
 
-Raven Core is my personal AI system for Windows.
+The important part is not making the model more powerful.
 
-The project explores a simple question:
+The important part is controlling what happens between:
 
-> **How can an AI assistant perform real actions on a computer while remaining predictable, observable and under the user's control?**
+```text
+"I understand what you want"
+             │
+             ▼
+"I am allowed to do it"
+             │
+             ▼
+"I executed it correctly"
+```
 
-Instead of allowing the language model to directly control the operating system, Raven converts natural language into structured actions that move through explicit policy and execution boundaries.
+### Execution path
 
 ```mermaid
 flowchart TD
-    A["User"] --> B["Language Model"]
-    B --> C["Structured Intent"]
-    C --> D["Policy"]
-    D --> E["Orchestrator"]
-    E --> F["Runtime"]
-    F --> G["Windows"]
-    F --> H["Audit"]
+    U["User"] --> L["Language Model"]
+    L --> I["Structured Intent"]
+    I --> P["Policy"]
+    P --> O["Orchestrator"]
+    O --> R["Runtime"]
+    R --> W["Windows"]
+
+    R --> A["Audit"]
+    P --> C["Approval"]
+    C --> O
 ```
 
-<div align="center">
+```text
+raven@core:~$ capabilities --summary
 
-<code>Local Inference</code>
-<code>Intent Routing</code>
-<code>Policy Enforcement</code>
+[✓] Local model inference
+[✓] Structured intent routing
+[✓] Explicit policy enforcement
+[✓] Deterministic execution
+[✓] Approval boundaries
+[✓] Windows automation
+[✓] Audit logging
+[✓] Contextual memory
+[✓] Multi step workflows
+```
 
-<br><br>
+### Design rule
 
-<code>Deterministic Execution</code>
-<code>Windows Automation</code>
-<code>Audit Logging</code>
+> The model may reason about the action.  
+> Trusted components decide whether the action can happen.
 
-<br><br>
-
-<code>Memory</code>
-<code>Security Boundaries</code>
-<code>Local AI</code>
-
-</div>
-
-<br>
-
-The model interprets what the user wants.
-
-Deterministic components decide what the system is actually allowed to do.
-
-This separation keeps reasoning flexible while execution remains controlled.
+That separation allows Raven to remain flexible at the language layer while keeping execution bounded, observable and testable.
 
 <details>
-<summary><strong>Architecture</strong></summary>
+<summary><strong>View architecture notes</strong></summary>
 
 <br>
 
-Raven is structured as separate components with clear responsibilities.
+```text
+┌─────────────────────┐
+│        USER         │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│   LANGUAGE MODEL    │
+│ interpretation only │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│  STRUCTURED INTENT  │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│       POLICY        │
+│ allow / deny / ask  │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│    ORCHESTRATOR     │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│       RUNTIME       │
+│ trusted execution   │
+└──────┬────────┬─────┘
+       │        │
+       ▼        ▼
+   WINDOWS    AUDIT
+```
+
+Raven is intentionally divided into components with narrow responsibilities.
 
 **Language Model**
 
-Interprets natural language and user intent.
+Interprets natural language.
 
 **Structured Intent**
 
-Converts model output into typed actions the rest of the system can understand.
+Turns model output into typed operations.
 
 **Policy**
 
-Determines whether an action is allowed, rejected or requires approval.
+Decides what may proceed.
 
 **Orchestrator**
 
-Controls the execution flow and coordinates actions.
+Controls state and workflow execution.
 
 **Runtime**
 
-Performs approved operations on the operating system.
+Executes approved operations.
 
 **Audit**
 
-Records what happened and makes system behavior observable.
-
-The goal is to keep model reasoning separate from trusted execution.
+Records what happened.
 
 </details>
 
 <br>
 
-## Other Projects
+## `$ ls ~/projects`
 
-### IT Support System Scanner
+### `raven-core/`
 
-A practical Windows support tool for collecting system information and reducing repetitive troubleshooting work.
+Local personal AI system for Windows with controlled execution, memory, policy enforcement and OS automation.
 
-`PowerShell` · `Windows` · `IT Operations` · `Automation`
-
-<br>
-
-### Privacy Guide
-
-A practical project focused on helping people improve their digital privacy without requiring deep technical knowledge.
-
-`Privacy` · `DNS` · `VPN` · `Browsers` · `Security`
+`Rust` `Local LLMs` `Windows` `Security` `AI Agents`
 
 <br>
 
-### Bli Enig
+### `system-scanner/`
 
-A project exploring how software can help people structure disagreements, compare perspectives and reach clearer decisions.
+Windows support tooling designed to collect useful diagnostic information and reduce repetitive troubleshooting.
 
-`React` · `TypeScript` · `Product Design` · `User Experience`
-
-<br>
-
-### Lab and Automation Projects
-
-I also experiment with Raspberry Pi systems, networking, local AI inference, Windows and Linux, system hardening, scripting and hardware integration.
+`PowerShell` `Windows` `IT Operations` `Automation`
 
 <br>
 
-## Current Focus
+### `privacy-guide/`
 
-### Infrastructure
+Practical privacy guidance designed for people who want stronger digital privacy without becoming security engineers.
 
-Microsoft 365 · Entra ID · Intune · Endpoint Management · Secure Operations
-
-### Security
-
-Identity · Endpoint Security · Monitoring · Hardening · Defensive Security
-
-### Applied AI
-
-Local AI · Agents · Machine Learning · Model Inference · AI Architecture
+`Privacy` `DNS` `VPN` `Browsers` `Security`
 
 <br>
 
-## How I Build
+### `bli-enig/`
 
-### Reliable over clever
+An experiment in using software to structure disagreements, compare perspectives and make discussions clearer.
+
+`React` `TypeScript` `Product Design`
+
+<br>
+
+## `$ cat current_focus`
+
+```text
+01  MICROSOFT INFRASTRUCTURE
+
+    Microsoft 365
+    Entra ID
+    Intune
+    Endpoint Management
+
+
+02  DEFENSIVE SECURITY
+
+    Identity
+    Endpoint Security
+    Hardening
+    Monitoring
+
+
+03  APPLIED AI
+
+    Local models
+    Agents
+    Machine Learning
+    AI system architecture
+```
+
+<br>
+
+## `$ cat engineering.md`
+
+### `01 / reliable_over_clever`
 
 A system should behave consistently before it becomes complicated.
 
-### Secure by design
+### `02 / secure_by_design`
 
-Security should be part of the architecture from the beginning.
+Security belongs in the architecture from the beginning.
 
-### Automation with purpose
+### `03 / automation_with_purpose`
 
 Automation should remove repetitive work without removing accountability.
 
-### Understandable systems
+### `04 / observable_systems`
 
-Important behavior should be observable and explainable.
+Important behavior should be understandable and inspectable.
 
-### Local when possible
+### `05 / local_when_possible`
 
 Privacy, ownership and control matter.
 
 <br>
 
-## Interests
+## `$ interests`
+
+```text
+Microsoft Infrastructure    Security Engineering
+IT Automation               Local AI
+AI Agents                   Machine Learning
+Windows                     Linux
+Networking                  Privacy
+```
+
+<br>
+
+```text
+hammad@soldercore:~$ contact --web
+
+Opening https://hamad.no ...
+```
 
 <div align="center">
 
-**Microsoft Infrastructure · Security Engineering · IT Automation**
+## [hamad.no](https://hamad.no)
+
+**Projects · Experience · Background**
 
 <br>
 
-**Local AI · AI Agents · Machine Learning**
-
-<br>
-
-**Windows · Linux · Networking · Privacy**
-
-</div>
-
-<br><br>
-
-<div align="center">
-
-## More About My Work
-
-Projects, experience and background at
-
-### [hamad.no](https://hamad.no)
-
-<br>
-
-**IT · Security · Automation · Applied AI**
+`IT` · `SECURITY` · `AUTOMATION` · `APPLIED AI`
 
 </div>
